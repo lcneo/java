@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-class aaa{
+class Calculator{
 	public static void main(String[] args) {
 		CwinMain wm = new CwinMain();
 	}
@@ -18,7 +18,6 @@ class aaa{
 
 class CwinMain extends JFrame{
 	JButton button1 = new JButton("确定");
-	JButton button2 = new JButton("我是你爸爸");
 	
 	JLabel label1 = new JLabel("+");
 	JLabel label2 = new JLabel("=");
